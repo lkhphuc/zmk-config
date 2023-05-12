@@ -19,12 +19,12 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <10 11>;
+            key-positions = <10 9>;
         };
 
         bsp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
         };
 
         paren1 {
