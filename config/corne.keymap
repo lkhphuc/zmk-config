@@ -22,8 +22,8 @@
             key-positions = <21 22>;
         };
 
-        question {
-            bindings = <&kp QUESTION>;
+        colon {
+            bindings = <&kp COLON>;
             key-positions = <34 33>;
         };
 
