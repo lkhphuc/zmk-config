@@ -12,18 +12,28 @@
     combos {
         compatible = "zmk,combos";
 
-        delete-forward {
-            bindings = <&kp DEL>;
-            key-positions = <41 36>;
-        };
-
         del {
             bindings = <&kp DEL>;
-            key-positions = <10 9>;
+            key-positions = <9 10>;
         };
 
         bsp {
             bindings = <&kp BACKSPACE>;
+            key-positions = <21 22>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <34 33>;
+        };
+
+        bracket1 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        bracket2 {
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <9 8>;
         };
 
@@ -47,34 +57,34 @@
             key-positions = <32 33>;
         };
 
+        and {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <21 9>;
+        };
+
+        or {
+            bindings = <&kp PIPE>;
+            key-positions = <33 21>;
+        };
+
         mult {
             bindings = <&kp ASTRK>;
             key-positions = <20 8>;
         };
 
-        div {
-            bindings = <&kp SLASH>;
-            key-positions = <32 20>;
-        };
-
-        and {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <7 19>;
-        };
-
-        or {
-            bindings = <&kp PIPE>;
-            key-positions = <19 31>;
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <20 32>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <9 21>;
+            key-positions = <19 7>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <21 33>;
+            key-positions = <31 19>;
         };
 
         caret {
@@ -87,15 +97,61 @@
             key-positions = <30 18>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <8 7>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 15>;
         };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <17 5>;
+        };
+
+        bslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <15 27>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <14 2>;
+        };
+
+        btick {
+            bindings = <&kp GRAVE>;
+            key-positions = <26 14>;
+        };
+
+        pound {
+            bindings = <&kp POUND>;
+            key-positions = <15 3>;
+        };
+
+        repeat {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <13 14>;
+        };
+
+        exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <1 2>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <1 13>;
+        };
+
+        ctrlZ {
+            bindings = <&kp LC(Z)>;
+            key-positions = <25 26>;
+        };
+
     };
 
     keymap {
