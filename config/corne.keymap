@@ -144,7 +144,7 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <1 13>;
+            key-positions = <17 29>;
         };
 
         ctrlZ {
@@ -152,6 +152,10 @@
             key-positions = <25 26>;
         };
 
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <28 16>;
+        };
     };
 
     keymap {
