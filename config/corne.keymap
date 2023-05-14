@@ -39,7 +39,7 @@
 
         paren1 {
             bindings = <&kp LPAR>;
-            key-positions = <19 7 8>;
+            key-positions = <7 8>;
         };
 
         paren2 {
