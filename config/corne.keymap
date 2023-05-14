@@ -74,7 +74,7 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <15 16>;
+            key-positions = <32 20>;
         };
 
         plus {
@@ -139,7 +139,7 @@
 
         exclamation {
             bindings = <&kp EXCL>;
-            key-positions = <1 2>;
+            key-positions = <1 13>;
         };
 
         tilde {
@@ -155,6 +155,11 @@
         question {
             bindings = <&kp QUESTION>;
             key-positions = <28 16>;
+        };
+
+        equal1 {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 15>;
         };
     };
 
