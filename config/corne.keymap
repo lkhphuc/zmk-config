@@ -29,32 +29,32 @@
 
         bracket1 {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
         };
 
         bracket2 {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <32 33>;
+            key-positions = <21 20>;
         };
 
         paren1 {
             bindings = <&kp LPAR>;
-            key-positions = <19 20>;
+            key-positions = <19 7 8>;
         };
 
         paren2 {
             bindings = <&kp RPAR>;
-            key-positions = <20 21>;
+            key-positions = <8 9>;
         };
 
         brace1 {
             bindings = <&kp LBRC>;
-            key-positions = <8 7>;
+            key-positions = <31 32>;
         };
 
         brace2 {
             bindings = <&kp RBRC>;
-            key-positions = <8 9>;
+            key-positions = <33 32>;
         };
 
         and {
