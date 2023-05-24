@@ -214,10 +214,10 @@
  */
 
             bindings = <
-&trans     &kp N1    &kp N2     &kp N3     &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9               &kp N0    &trans
-&trans  &kp GRAVE  &kp HOME  &kp PG_UP  &kp PG_DN   &kp END     &kp LEFT   &kp DOWN    &kp UP  &kp RIGHT             &kp SEMI    &trans
-&trans  &kp LSHFT  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &mt RSHFT BACKSLASH  &kp LGUI
-                                &trans     &trans    &trans       &trans     &trans
+&trans       &kp GRAVE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp MINUS     &kp HOME  &kp PG_DN  &kp PG_UP    &kp END  &kp BACKSLASH    &trans
+&trans        &kp CAPS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp EQUAL     &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT       &kp SEMI    &trans
+&trans  &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp MINUS  &kp EQUAL   &kp LBKT   &kp RBKT      &kp RSHFT  &kp LGUI
+                                            &trans        &trans        &trans       &trans     &trans
             >;
         };
 
@@ -236,10 +236,10 @@
 */
 
             bindings = <
-   &kp TAB        &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                  &kp F6                 &kp F7         &kp F8            &kp F9       &kp F10  &kp BSPC
- &kp LCTRL       &kp F11       &kp F12    &bt BT_PRV    &bt BT_NXT    &bt BT_CLR    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp LBKT          &kp RBKT     &kp COLON    &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4               &kp UNDER               &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION    &trans
-                                              &trans        &trans        &trans                  &trans                 &trans         &trans
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &bt BT_CLR            &bt BT_SEL 0           &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &bt BT_NXT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp LBKT          &kp RBKT     &kp COLON  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &bt BT_PRV          &kp UNDERSCORE               &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
+                         &trans  &trans      &trans                  &trans                 &trans         &trans
             >;
         };
     };
