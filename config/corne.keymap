@@ -191,10 +191,10 @@
  */
 
             bindings = <
-   &kp TAB        &kp Q  &kp W            &kp E             &kp R                &kp T                        &kp Y        &kp U                &kp I    &kp O            &kp P  &kp BSLH
-   &kp ESC        &kp A  &kp S            &kp D             &kp F                &kp G                        &kp H        &kp J                &kp K    &kp L          &kp SQT  &kp SEMI
-&kp LSHIFT  &mt LSHFT Z  &kp X            &kp C             &kp V                &kp B                        &kp N        &kp M            &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp CAPS
-                                &mt LCTRL COLON  &mt LEFT_ALT TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
+   &kp TAB        &kp Q  &kp W                  &kp E          &kp R                &kp T                        &kp Y        &kp U                &kp I    &kp O            &kp P  &kp BSLH
+   &kp ESC        &kp A  &kp S                  &kp D          &kp F                &kp G                        &kp H        &kp J                &kp K    &kp L          &kp SQT  &kp SEMI
+&kp LSHIFT  &mt LSHFT Z  &kp X                  &kp C          &kp V                &kp B                        &kp N        &kp M            &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp CAPS
+                                &mt LEFT_ALT CAPSLOCK  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
 
