@@ -59,105 +59,85 @@
 
         and {
             bindings = <&kp AMPERSAND>;
-            key-positions = <21 9>;
+            key-positions = <7 9>;
         };
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <33 21>;
+            key-positions = <19 21>;
         };
 
         mult {
             bindings = <&kp ASTRK>;
-            key-positions = <20 8>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <32 20>;
+            key-positions = <19 18>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <19 7>;
+            key-positions = <6 7>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 19>;
+            key-positions = <31 30>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <6 18>;
+            key-positions = <29 28>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
-            key-positions = <30 18>;
+            key-positions = <31 33>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 15>;
+            key-positions = <14 13>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <4 16>;
+            key-positions = <4 5>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
-            key-positions = <17 5>;
+            key-positions = <16 17>;
         };
 
         bslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <15 27>;
+            key-positions = <27 28>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <14 2>;
+            key-positions = <2 1>;
         };
 
         btick {
             bindings = <&kp GRAVE>;
-            key-positions = <26 14>;
+            key-positions = <26 25>;
         };
 
         pound {
             bindings = <&kp POUND>;
-            key-positions = <15 3>;
-        };
-
-        stab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <13 14>;
+            key-positions = <3 4>;
         };
 
         exclamation {
             bindings = <&kp EXCL>;
-            key-positions = <1 13>;
+            key-positions = <1 2>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <17 29>;
+            key-positions = <26 27>;
         };
 
-        ctrlZ {
-            bindings = <&kp C_REPEAT>;
-            key-positions = <25 26>;
-        };
-
-        question {
-            bindings = <&kp QUESTION>;
-            key-positions = <28 16>;
-        };
-
-        equal1 {
+        equal {
             bindings = <&kp EQUAL>;
             key-positions = <16 15>;
         };
