@@ -94,7 +94,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <14 15>;
         };
 
         dollar {
@@ -114,7 +114,7 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <2 1>;
+            key-positions = <2 3>;
         };
 
         btick {
@@ -140,6 +140,11 @@
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <16 15>;
+        };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <13 14>;
         };
     };
 
