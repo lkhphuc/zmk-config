@@ -12,11 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <14 13>;
-        };
-
         bsp {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
@@ -25,6 +20,11 @@
         colon {
             bindings = <&kp COLON>;
             key-positions = <21 22>;
+        };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <34 33>;
         };
 
         bracket1 {
@@ -59,32 +59,27 @@
 
         and {
             bindings = <&kp AMPERSAND>;
-            key-positions = <7 9>;
+            key-positions = <7 10>;
         };
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <19 21>;
+            key-positions = <19 22>;
         };
 
         mult {
             bindings = <&kp ASTRK>;
-            key-positions = <19 18>;
+            key-positions = <31 34>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <6 7>;
+            key-positions = <7 9>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <31 30>;
-        };
-
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <29 28>;
+            key-positions = <21 19>;
         };
 
         underscore {
@@ -92,19 +87,29 @@
             key-positions = <31 33>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <14 15>;
-        };
-
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <4 5>;
+            key-positions = <4 2>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
-            key-positions = <16 17>;
+            key-positions = <16 14>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <28 26>;
+        };
+
+        pound {
+            bindings = <&kp POUND>;
+            key-positions = <3 4>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 15>;
         };
 
         bslash {
@@ -117,19 +122,9 @@
             key-positions = <2 3>;
         };
 
-        btick {
-            bindings = <&kp GRAVE>;
-            key-positions = <26 25>;
-        };
-
-        pound {
-            bindings = <&kp POUND>;
-            key-positions = <3 4>;
-        };
-
-        exclamation {
-            bindings = <&kp EXCL>;
-            key-positions = <1 2>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
         };
 
         tilde {
@@ -137,14 +132,19 @@
             key-positions = <26 27>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <16 15>;
+        exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <1 2>;
         };
 
-        semi {
-            bindings = <&kp SEMI>;
-            key-positions = <34 33>;
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <14 13>;
+        };
+
+        btick {
+            bindings = <&kp GRAVE>;
+            key-positions = <26 25>;
         };
     };
 
