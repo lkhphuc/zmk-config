@@ -14,7 +14,7 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <34 33>;
+            key-positions = <14 13>;
         };
 
         bsp {
@@ -144,7 +144,7 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <13 14>;
+            key-positions = <34 33>;
         };
     };
 
