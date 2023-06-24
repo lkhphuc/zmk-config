@@ -174,19 +174,22 @@
             global-quick-tap-ms = <150>;
         };
 
-        sticky_shift {
-            bindings = <&sk LSHFT>;
+        caps {
+            bindings = <&kp CAPS>;
             key-positions = <25 34>;
         };
     };
 
     behaviors {
-        caps_words: caps_words {
-            compatible = "zmk,behavior-caps-word";
-            label = "CAPS_WORDS";
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-            continue-list = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z UNDERSCORE BACKSPACE DEL>;
+        mt_sk: mt_sk {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_SK";
+            bindings =
+                <&kp>,
+                <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
         };
     };
 
@@ -195,10 +198,10 @@
 
         default_layer {
             bindings = <
-   &kp TAB        &kp Q  &kp W          &kp E          &kp R                &kp T                        &kp Y        &kp U                &kp I    &kp O            &kp P  &kp BSLH
-   &kp ESC        &kp A  &kp S          &kp D          &kp F                &kp G                        &kp H        &kp J                &kp K    &kp L          &kp SQT  &kp SEMI
-&kp LSHIFT  &mt LSHFT Z  &kp X          &kp C          &kp V                &kp B                        &kp N        &kp M            &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp CAPS
-                                &mt LALT CAPS  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
+   &kp TAB        &kp Q  &kp W              &kp E          &kp R                &kp T                        &kp Y        &kp U                &kp I    &kp O            &kp P  &kp BSLH
+   &kp ESC        &kp A  &kp S              &kp D          &kp F                &kp G                        &kp H        &kp J                &kp K    &kp L          &kp SQT  &kp SEMI
+&kp LSHIFT  &mt LSHFT Z  &kp X              &kp C          &kp V                &kp B                        &kp N        &kp M            &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp CAPS
+                                &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
 
