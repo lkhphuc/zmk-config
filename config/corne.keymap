@@ -15,168 +15,169 @@
         bsp {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <21 22>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         semi {
             bindings = <&kp SEMI>;
             key-positions = <34 33>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         bracket1 {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <19 20>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         bracket2 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 20>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         paren1 {
             bindings = <&kp LPAR>;
             key-positions = <7 8>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         paren2 {
             bindings = <&kp RPAR>;
             key-positions = <8 9>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         brace1 {
             bindings = <&kp LBRC>;
             key-positions = <31 32>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         brace2 {
             bindings = <&kp RBRC>;
             key-positions = <33 32>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         and {
             bindings = <&kp AMPERSAND>;
             key-positions = <7 10>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         or {
             bindings = <&kp PIPE>;
             key-positions = <19 22>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         mult {
             bindings = <&kp ASTRK>;
             key-positions = <31 34>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <7 9>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <21 19>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <31 33>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <4 2>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <16 14>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <28 26>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         pound {
             bindings = <&kp POUND>;
             key-positions = <3 4>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <16 15>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         bslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <27 28>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <2 3>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 13>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <26 27>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         exclamation {
             bindings = <&kp EXCL>;
             key-positions = <14 15>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         del {
             bindings = <&kp DEL>;
             key-positions = <1 2>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         btick {
             bindings = <&kp GRAVE>;
             key-positions = <26 25>;
-            global-quick-tap-ms = <150>;
+            require-prior-idle-ms = <125>;
         };
 
         caps {
             bindings = <&kp CAPS>;
             key-positions = <25 34>;
+            require-prior-idle-ms = <125>;
         };
     };
 
@@ -184,9 +185,7 @@
         mt_sk: mt_sk {
             compatible = "zmk,behavior-hold-tap";
             label = "MT_SK";
-            bindings =
-                <&kp>,
-                <&sk>;
+            bindings = <&kp>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -198,28 +197,28 @@
 
         default_layer {
             bindings = <
-   &kp TAB        &kp Q  &kp W              &kp E          &kp R                &kp T                        &kp Y        &kp U                &kp I    &kp O            &kp P  &kp BSLH
-   &kp ESC        &kp A  &kp S              &kp D          &kp F                &kp G                        &kp H        &kp J                &kp K    &kp L          &kp SQT  &kp SEMI
-&kp LSHIFT  &mt LSHFT Z  &kp X              &kp C          &kp V                &kp B                        &kp N        &kp M            &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp CAPS
+&kp TAB     &kp Q        &kp W  &kp E              &kp R          &kp T                  &kp Y                      &kp U        &kp I                &kp O    &kp P            &kp BSLH
+&kp ESC     &kp A        &kp S  &kp D              &kp F          &kp G                  &kp H                      &kp J        &kp K                &kp L    &kp SQT          &kp SEMI
+&kp LSHIFT  &mt LSHFT Z  &kp X  &kp C              &kp V          &kp B                  &kp N                      &kp M        &kp COMMA            &kp DOT  &mt RSHIFT FSLH  &kp CAPS
                                 &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
 
         num_nav {
             bindings = <
-&trans    &kp PLUS  &kp NUMBER_7       &kp NUMBER_8        &kp NUMBER_9          &kp MINUS     &kp HOME  &kp PG_DN  &kp PG_UP    &kp END  &kp BACKSLASH  &trans
-&trans  &kp PERIOD  &kp NUMBER_4       &kp NUMBER_5        &kp NUMBER_6          &kp COMMA     &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT       &kp SEMI  &trans
-&trans   &kp ASTRK  &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3          &kp SLASH    &kp MINUS  &kp EQUAL   &kp LBKT   &kp RBKT      &kp RSHFT  &trans
-                                  &mt LALT NUMBER_0  &mt LCTRL NUMBER_0  &mt LGUI NUMBER_0       &trans     &trans     &trans
+&trans  &kp PLUS    &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9        &kp MINUS            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp BACKSLASH  &trans
+&trans  &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6        &kp COMMA            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI       &trans
+&trans  &kp ASTRK   &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3        &kp SLASH            &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp RSHFT      &trans
+                                  &mt LALT NUMBER_0  &mt LCTRL NUMBER_0  &mt LGUI NUMBER_0    &trans     &trans     &trans
             >;
         };
 
         Functions {
             bindings = <
 &trans  &kp F12  &kp F7  &kp F8  &kp F9  &kp F15    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
-&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp F14         &kp INS    &kp K_UNDO    &kp K_REDO    &kp K_COPY   &kp K_PASTE  &trans
-&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp F13      &bt BT_CLR    &bt BT_NXT    &bt BT_PRV        &trans        &trans  &trans
-                         &trans  &trans   &trans          &trans        &trans        &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp F14    &kp INS       &kp K_UNDO    &kp K_REDO    &kp K_COPY    &kp K_PASTE   &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp F13    &bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &trans        &trans        &trans
+                         &trans  &trans  &trans     &trans        &trans        &trans
             >;
         };
     };
