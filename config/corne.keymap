@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&mt { require-prior-idle-ms = <125>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -176,7 +178,7 @@
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <25 35>;
+            key-positions = <25 34>;
             require-prior-idle-ms = <125>;
         };
 
@@ -202,10 +204,10 @@
 
         default_layer {
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E              &kp R          &kp T                  &kp Y                      &kp U        &kp I                &kp O    &kp P     &kp BSLH
-&kp ESC     &kp A  &kp S  &kp D              &kp F          &kp G                  &kp H                      &kp J        &kp K                &kp L    &kp SQT   &kp SEMI
-&kp LSHIFT  &kp Z  &kp X  &kp C              &kp V          &kp B                  &kp N                      &kp M        &kp COMMA            &kp DOT  &kp FSLH  &kp CAPS
-                          &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
+&kp TAB     &kp Q        &kp W  &kp E              &kp R          &kp T                  &kp Y                      &kp U        &kp I                &kp O    &kp P           &kp BSLH
+&kp ESC     &kp A        &kp S  &kp D              &kp F          &kp G                  &kp H                      &kp J        &kp K                &kp L    &kp SQT         &kp SEMI
+&kp LSHIFT  &mt LSHFT Z  &kp X  &kp C              &kp V          &kp B                  &kp N                      &kp M        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
+                                &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
 
