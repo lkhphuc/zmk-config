@@ -188,7 +188,7 @@
         };
 
         colemak-dh {
-            bindings = <&tog 3>;
+            bindings = <&tog 1>;
             key-positions = <27 28 31 32>;
         };
     };
@@ -212,7 +212,16 @@
 &kp TAB     &kp Q        &kp W  &kp E              &kp R          &kp T                  &kp Y                      &kp U        &kp I                &kp O    &kp P           &kp BSLH
 &kp ESC     &kp A        &kp S  &kp D              &kp F          &kp G                  &kp H                      &kp J        &kp K                &kp L    &kp SQT         &kp SEMI
 &kp LSHIFT  &mt LSHFT Z  &kp X  &kp C              &kp V          &kp B                  &kp N                      &kp M        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
-                                &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
+                                &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 2 SPACE  &lt 3 LA(BACKSPACE)
+            >;
+        };
+
+        colemak-dh {
+            bindings = <
+&kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J                      &kp L        &kp U                &kp Y    &kp SQT         &kp BSLH
+&kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M                      &kp N        &kp E                &kp I    &kp O           &kp SEMI
+&kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K                      &kp H        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
+                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 2 SPACE  &lt 3 LA(BACKSPACE)
             >;
         };
 
@@ -231,15 +240,6 @@
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp F14    &kp INS       &kp K_UNDO    &kp K_REDO    &kp K_COPY    &kp K_PASTE   &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp F13    &bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &trans        &trans        &trans
                          &trans  &trans  &trans     &trans        &trans        &trans
-            >;
-        };
-
-        colemak-dh {
-            bindings = <
-&kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J                      &kp L        &kp U                &kp Y    &kp SQT         &kp BSLH
-&kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M                      &kp N        &kp E                &kp I    &kp O           &kp SEMI
-&kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K                      &kp H        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
-                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
     };
