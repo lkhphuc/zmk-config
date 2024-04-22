@@ -76,13 +76,13 @@
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <19 22>;
+            key-positions = <34 31>;
             require-prior-idle-ms = <125>;
         };
 
         mult {
             bindings = <&kp ASTRK>;
-            key-positions = <31 34>;
+            key-positions = <22 19>;
             require-prior-idle-ms = <125>;
         };
 
@@ -176,15 +176,20 @@
             require-prior-idle-ms = <125>;
         };
 
-        caps {
+        capslock {
             bindings = <&kp CAPS>;
-            key-positions = <25 34>;
+            key-positions = <36 41>;
             require-prior-idle-ms = <125>;
         };
 
-        capword {
+        capsword {
             bindings = <&caps_word>;
-            key-positions = <36 41>;
+            key-positions = <25 34>;
+        };
+
+        colemak-dh {
+            bindings = <&tog 3>;
+            key-positions = <27 28 31 32>;
         };
     };
 
@@ -226,6 +231,15 @@
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp F14    &kp INS       &kp K_UNDO    &kp K_REDO    &kp K_COPY    &kp K_PASTE   &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &kp F13    &bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &trans        &trans        &trans
                          &trans  &trans  &trans     &trans        &trans        &trans
+            >;
+        };
+
+        colemak-dh {
+            bindings = <
+&kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J                      &kp L        &kp U                &kp Y    &kp SQT         &kp BSLH
+&kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M                      &kp N        &kp E                &kp I    &kp O           &kp SEMI
+&kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K                      &kp H        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
+                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 1 SPACE  &lt 2 LA(BACKSPACE)
             >;
         };
     };
