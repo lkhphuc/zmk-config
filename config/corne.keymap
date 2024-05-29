@@ -76,13 +76,13 @@
 
         or {
             bindings = <&kp PIPE>;
-            key-positions = <34 31>;
+            key-positions = <22 19>;
             require-prior-idle-ms = <125>;
         };
 
         mult {
             bindings = <&kp ASTRK>;
-            key-positions = <22 19>;
+            key-positions = <31 34>;
             require-prior-idle-ms = <125>;
         };
 
