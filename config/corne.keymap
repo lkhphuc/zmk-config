@@ -209,19 +209,19 @@
 
         colemak-dh {
             bindings = <
-&kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J                        &kp L        &kp U                &kp Y    &kp SQT         &kp BSLH
-&kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M                        &kp N        &kp E                &kp I    &kp O           &kp SEMI
-&kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K                        &kp H        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
-                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) SPACE  &lt 2 ENTER  &lt 3 LA(BACKSPACE)
+&kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J        &kp L                       &kp U                &kp Y    &kp SQT         &kp BSLH
+&kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M        &kp N                       &kp E                &kp I    &kp O           &kp SEMI
+&kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K        &kp H                       &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
+                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &lt 2 ENTER  &mt RS(RA(RC(RCMD))) SPACE  &lt 3 LA(BACKSPACE)
             >;
         };
 
         qwerty_layer {
             bindings = <
-&kp TAB     &kp Q        &kp W  &kp E              &kp R          &kp T                  &kp Y                      &kp U        &kp I                &kp O    &kp P           &kp BSLH
-&kp ESC     &kp A        &kp S  &kp D              &kp F          &kp G                  &kp H                      &kp J        &kp K                &kp L    &kp SQT         &kp SEMI
-&kp LSHIFT  &mt LSHFT Z  &kp X  &kp C              &kp V          &kp B                  &kp N                      &kp M        &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
-                                &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &mt RS(RA(RG(RCTRL))) RET  &lt 3 SPACE  &lt 3 LA(BACKSPACE)
+&kp TAB     &kp Q        &kp W  &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P           &kp BSLH
+&kp ESC     &kp A        &kp S  &kp D   &kp F   &kp G     &kp H   &kp J   &kp K      &kp L    &kp SQT         &kp SEMI
+&kp LSHIFT  &mt LSHFT Z  &kp X  &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &mt RSHFT FSLH  &kp CAPS
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
