@@ -187,7 +187,7 @@
             key-positions = <25 34>;
         };
 
-        colemak-dh {
+        alternate-layout {
             bindings = <&tog 1>;
             key-positions = <27 28 31 32>;
         };
@@ -212,7 +212,7 @@
 &kp TAB    &kp Q        &kp W  &kp F              &kp P          &kp B                  &kp J        &kp L                       &kp U                &kp Y    &kp SQT         &kp BSLH
 &kp ESC    &kp A        &kp R  &kp S              &kp T          &kp G                  &kp M        &kp N                       &kp E                &kp I    &kp O           &kp SEMI
 &kp LSHFT  &mt LSHFT Z  &kp X  &kp C              &kp D          &kp V                  &kp K        &kp H                       &kp COMMA            &kp DOT  &mt RSHFT FSLH  &kp CAPS
-                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &lt 2 ENTER  &mt RS(RA(RC(RCMD))) SPACE  &lt 3 LA(BACKSPACE)
+                               &mt_sk LALT LSHFT  &mt LCTRL TAB  &mt LEFT_GUI ESCAPE    &lt 2 SPACE  &mt RS(RA(RC(RCMD))) ENTER  &lt 3 LA(BACKSPACE)
             >;
         };
 
