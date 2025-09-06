@@ -237,9 +237,9 @@
 
         colemak-dh {
             bindings = <
-&kp TAB    &kp Q         &kp W            &kp F              &kp P              &kp B                  &kp J        &kp L                       &kp U                &kp Y             &kp SQT         &kp BSLH
-&kp ESC    &hml LCTRL A  &hml LEFT_ALT R  &hml LEFT_GUI S    &hml LEFT_SHIFT T  &kp G                  &kp M        &hmr RIGHT_SHIFT N          &hmr RIGHT_GUI E     &hmr RIGHT_ALT I  &hmr RCTRL O    &kp SEMI
-&kp LSHFT  &mt LSHFT Z   &kp X            &kp C              &kp D              &kp V                  &kp K        &kp H                       &kp COMMA            &kp DOT           &mt RSHFT FSLH  &kp CAPS
+&kp TAB    &kp Q         &kp W            &kp F              &kp P              &kp B                  &kp J        &kp L                       &kp U                &kp Y             &kp SQT          &kp BSLH
+&kp ESC    &hml LCTRL A  &hml LEFT_ALT R  &hml LEFT_GUI S    &hml LEFT_SHIFT T  &kp G                  &kp M        &hmr RIGHT_SHIFT N          &hmr RIGHT_GUI E     &hmr RIGHT_ALT I  &hmr RCTRL O     &kp SEMI
+&kp LSHFT  &hml LSHFT Z  &kp X            &kp C              &kp D              &kp V                  &kp K        &kp H                       &kp COMMA            &kp DOT           &hmr RSHFT FSLH  &kp CAPS
                                           &mt_sk LALT LSHFT  &mt LCTRL TAB      &mt LEFT_GUI ESCAPE    &lt 2 SPACE  &mt RS(RA(RC(RCMD))) ENTER  &lt 3 LA(BACKSPACE)
             >;
         };
