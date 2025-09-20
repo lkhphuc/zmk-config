@@ -255,10 +255,10 @@
 
         num_nav {
             bindings = <
-&trans  &kp PLUS    &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9        &kp MINUS            &kp END    &kp PG_DN  &kp PG_UP  &kp HOME   &kp BACKSLASH  &trans
-&trans  &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6        &kp COMMA            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI       &trans
-&trans  &kp ASTRK   &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3        &kp SLASH            &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp RSHFT      &trans
-                                  &mt LALT NUMBER_0  &mt LCTRL NUMBER_0  &mt LGUI NUMBER_0    &trans     &trans     &trans
+&trans  &kp PLUS    &kp NUMBER_7  &kp NUMBER_8       &kp NUMBER_9        &kp MINUS         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp BACKSLASH  &trans
+&trans  &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5       &kp NUMBER_6        &kp COMMA         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI       &trans
+&trans  &kp ASTRK   &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3        &kp SLASH         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp RSHFT      &trans
+                                  &mt LALT NUMBER_0  &mt LCTRL NUMBER_0  &mt LGUI SPACE    &trans     &trans     &trans
             >;
         };
 
